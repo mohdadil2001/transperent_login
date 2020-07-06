@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+::placeholder { 
+    color: #fff;
+    opacity: 1; 
+    font-family: 'Merienda One', cursive;
+  }
+
+body{
+    background: url('bg.jpg'); 
+    background-size: cover;
+    width: 100wh;
+    height: 100vh;
+}
+
+.container{
+    /* border: 22px solid red; */
+    color: white;
+    position: absolute;
+    top: 33%;
+    left: 30%;
+}
+
+.container h1{
+    font-size: 40px;
+    font-family: 'Merienda One', cursive;
+    border-bottom: 5px solid purple;
+    margin-bottom: 40px;
+    padding: 20px 0;
+}
+
+.box{
+    width: 100%; 
+    margin: 32px 0px;
+    /* border-bottom: 2px solid blueviolet; */
+}
+.box input{
+    background: none;
+    width: 75%;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 23px;
+    padding: 5px 10px;
+    
+}
+
+.box i{
+    padding: 0 12px;
+    width: 25px;
+    text-align: center;
+}
+
+.btn{
+    cursor: pointer;
+    font-family: 'Merienda One', cursive;
+    outline: none; 
+    width: 24%;
+    margin: 12px 0;
+    padding: 6px; 
+    border-radius: 8px;
+    font-size: 18px;
+    background: none;
+    color: #fff;
+    padding: 10px 21px;
+    font-weight: bold;
+    border: none;
+}
+
+.btn:hover{
+    color: purple;
+    background: white;
+}
