@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0; 
+    box-sizing:boder-box;
 }
 
 ::placeholder { 
@@ -9,7 +10,6 @@
     opacity: 1; 
     font-family: 'Merienda One', cursive;
   }
-
 body{
     background: url('bg.jpg'); 
     background-size: cover;
@@ -19,7 +19,7 @@ body{
 
 .container{
     /* border: 22px solid red; */
-    color: white;
+    color: #fff;
     position: absolute;
     top: 33%;
     left: 30%;
@@ -73,5 +73,5 @@ body{
 
 .btn:hover{
     color: purple;
-    background: white;
+    background: #fff;
 }
