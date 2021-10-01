@@ -28,7 +28,7 @@ body{
 .container h1{
     font-size: 40px;
     font-family: 'Merienda One', cursive;
-    border-bottom: 5px solid purple;
+    border-bottom: 5px solid blue;
     margin-bottom: 40px;
     padding: 20px 0;
 }
